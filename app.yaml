@@ -1,4 +1,4 @@
 runtime: custom
 env: flex
-liveness_check:
-  initial_delay_sec:300
+readiness_check:
+  app_start_timeout_sec:300
